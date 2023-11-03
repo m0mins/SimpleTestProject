@@ -1,0 +1,12 @@
+{% extends 'base.html'%}
+{%block body_block%}
+
+<h3>Student Details :</h3>
+<p>Name : {{students.name}} </p>
+<p>Gerder : {{students.gender}}</p>
+<p>Address : {{students.address}}</p>
+<p>Phone Number : {{students.phone}}</p>
+<p>Email : {{students.email}}</p>
+<img src="/media/{{students.image}}" class="rounded-circle" width="100px">
+
+{%endblock%}
